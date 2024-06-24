@@ -1,1 +1,3 @@
 site_name: Carpenter-Singh Lab Standards
+theme:
+  name: material
