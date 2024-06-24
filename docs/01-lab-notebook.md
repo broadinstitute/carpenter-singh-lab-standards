@@ -2,8 +2,8 @@
 
 ## Purpose
 
-These guidelines establish our lab's standard practices for using GitHub repositories as lab notebooks.
-Following these practices ensures consistency, reproducibility, and efficient collaboration across all lab projects.
+These guidelines establish our lab's standard practices for using GitHub repositories as lab notebooks. 
+Our past [discussions](https://github.com/carpenterlab/open-science-rules/issues/18) led to these guidelines.
 
 ## Repository Structure
 
