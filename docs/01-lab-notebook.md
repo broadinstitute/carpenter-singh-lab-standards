@@ -90,8 +90,8 @@ Pull Requests:
 
 ## Addressing Pitfalls
 
-This section is for known issues we're working to improve.
-We welcome ideas for solutions.
+_This section is for known issues we're working to improve._
+_We welcome ideas for solutions._
 
 - Analysis Iterations:
   - Consider adding optional datetime suffixes to folders/files for multiple iterations of an analysis
