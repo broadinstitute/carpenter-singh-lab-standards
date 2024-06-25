@@ -10,8 +10,8 @@ Our past [discussions](https://github.com/carpenterlab/open-science-rules/issues
 - README.md: Project overview and key links
 - Analysis modules: Folders named `00.<name>`, `01.<name>`, etc.
 - Each module contains:
-    - Notebooks/scripts: `00.<name>.ipynb`, `01.<name>.py`, etc.
-    - Subfolders: `input/`, `output/`, `figures/`
+  - Notebooks/scripts: `00.<name>.ipynb`, `01.<name>.py`, etc.
+  - Subfolders: `input/`, `output/`, `figures/`
 
 ## Experiment notes and discussions
 
@@ -76,9 +76,9 @@ For large/dynamic datasets:
 
 - Save as SVG for final versions
 - Use `x.generate-figures.ipynb` in each module to
-    - Read data from the output folder
-    - Produce figures
-    - Allow figure reproduction without redoing all analysis
+  - Read data from the output folder
+  - Produce figures
+  - Allow figure reproduction without redoing all analysis
 
 ## Best Practices
 
@@ -91,10 +91,10 @@ _This section is for known issues we're working to improve._
 _We welcome ideas for solutions._
 
 - Analysis Iterations:
-    - Consider adding optional datetime suffixes to folders/files for multiple iterations of an analysis
-    - Example: `00.initial_analysis_2023-06-24`, `00.revised_analysis_2023-07-15`
+  - Consider adding optional datetime suffixes to folders/files for multiple iterations of an analysis
+  - Example: `00.initial_analysis_2023-06-24`, `00.revised_analysis_2023-07-15`
 - Project Management:
-    - While using GitHub Issues, consider:
-        - Automating conversion of issues to SQLite files for improved searchability
-        - Exploring markdown-based project management tools (e.g., [HedgeDoc](https://hedgedoc.org/))
-        - Investigating RAG (Retrieval-Augmented Generation) tools like [Greptile](https://app.greptile.com/) for better information retrieval
+  - While using GitHub Issues, consider:
+    - Automating conversion of issues to SQLite files for improved searchability
+    - Exploring markdown-based project management tools (e.g., [HedgeDoc](https://hedgedoc.org/))
+    - Investigating RAG (Retrieval-Augmented Generation) tools like [Greptile](https://app.greptile.com/) for better information retrieval
