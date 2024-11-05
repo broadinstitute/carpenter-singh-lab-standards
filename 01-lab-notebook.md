@@ -82,7 +82,7 @@ For large/dynamic datasets:
 
 ## Best Practices
 
-- Use .gitignore and precommit hooks
+- Use .gitignore and [precommit hooks](https://github.com/pre-commit/pre-commit-hooks)
 - No large files in main repository
 
 ## Addressing Pitfalls
