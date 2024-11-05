@@ -82,8 +82,9 @@ For large/dynamic datasets:
 
 ## Best Practices
 
-- Use .gitignore and [precommit hooks](https://github.com/pre-commit/pre-commit-hooks)
-- No large files in main repository
+- Use `.gitignore`
+- Use [precommit hooks](https://pre-commit.com/) (see webpage for instructions).
+  Use [`configs/.pre-commit-config.yaml`](configs/.pre-commit-config.yaml) as the starting point.
 
 ## Addressing Pitfalls
 
