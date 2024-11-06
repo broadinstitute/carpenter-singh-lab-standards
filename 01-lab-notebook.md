@@ -83,8 +83,8 @@ For large/dynamic datasets:
 ## Best Practices
 
 - Use `.gitignore`
-- Use [precommit hooks](https://pre-commit.com/) (see webpage for instructions
-  Use [`configs/.pre-commit-config.yaml`](configs/.pre-commit-config.yaml) as the starting point
+- Use [precommit hooks](https://pre-commit.com/) (see webpage for local installation instructions)
+  Use [`.pre-commit-config.yaml`](.pre-commit-config.yaml) as the starting point
   Run `pre-commit run --all-files` locally
   Install precommit CI on your repo <https://pre-commit.ci/>
 
