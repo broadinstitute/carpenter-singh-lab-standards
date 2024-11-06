@@ -31,7 +31,7 @@ Pull Requests:
 
 - Use for most analyses (rmd, jupytext, ipynb)
 - Use scripts for computationally intensive tasks
-- Format code with ruff
+- Format code with ruff (see [Best Practices](#best-practices))
 - Follow [Google's Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 
 ## Data Management
@@ -86,7 +86,7 @@ For large/dynamic datasets:
 - Use [precommit hooks](https://pre-commit.com/) (see webpage for instructions
   Use [`configs/.pre-commit-config.yaml`](configs/.pre-commit-config.yaml) as the starting point
   Run `pre-commit run --all-files` locally
-  Install precommit CI on your repo (https://pre-commit.ci/)
+  Install precommit CI on your repo <https://pre-commit.ci/>
 
 ## Addressing Pitfalls
 
