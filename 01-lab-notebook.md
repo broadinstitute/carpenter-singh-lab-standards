@@ -32,11 +32,11 @@ Pull Requests:
 - Use for most analyses (rmd, jupytext, ipynb)
 - Use scripts for computationally intensive tasks
 - Format code with ruff (see [Best Practices](#best-practices))
-- Follow [Google's Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 
 ## Data Management
 
 Use DVC for data versioning.
+
 For large/dynamic datasets:
 
 1. Create separate `-data` repository with the same base name as the main project
