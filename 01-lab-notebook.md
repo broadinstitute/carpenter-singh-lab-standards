@@ -31,12 +31,12 @@ Pull Requests:
 
 - Use for most analyses (rmd, jupytext, ipynb)
 - Use scripts for computationally intensive tasks
-- Format code with ruff
-- Follow [Google's Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+- Format code with ruff (see [Best Practices](#best-practices))
 
 ## Data Management
 
 Use DVC for data versioning.
+
 For large/dynamic datasets:
 
 1. Create separate `-data` repository with the same base name as the main project
@@ -82,8 +82,13 @@ For large/dynamic datasets:
 
 ## Best Practices
 
-- Use .gitignore and precommit hooks
-- No large files in main repository
+- Use `.gitignore`
+- Use [precommit hooks](https://pre-commit.com/) (see webpage for local installation instructions)
+   - Use [`.pre-commit-config.yaml`](.pre-commit-config.yaml) as the starting point
+   - Run `pre-commit run --all-files` locally
+   - Install precommit CI on your repo <https://pre-commit.ci/>
+- Use [ruff](https://github.com/charliermarsh/ruff) to enforce code style
+  At present, we use the default settings, so `.ruff.toml` is not required, but we have included and empty config for completeness (and `.pre-commit-config.yaml` requires it)
 
 ## Addressing Pitfalls
 
