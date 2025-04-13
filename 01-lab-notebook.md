@@ -89,6 +89,7 @@ For large/dynamic datasets:
    - Install precommit CI on your repo <https://pre-commit.ci/>
 - Use [ruff](https://github.com/charliermarsh/ruff) to enforce code style
   At present, we use the default settings, so `.ruff.toml` is not required, but we have included and empty config for completeness (and `.pre-commit-config.yaml` requires it)
+  For python projects, we favor [configuring](https://docs.astral.sh/ruff/configuration/) ruff using `pyproject.toml` file.
 
 ## Addressing Pitfalls
 
