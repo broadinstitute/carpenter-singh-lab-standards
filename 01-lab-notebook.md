@@ -91,6 +91,23 @@ For large/dynamic datasets:
   At present, we use the default settings, so `.ruff.toml` is not required, but we have included and empty config for completeness (and `.pre-commit-config.yaml` requires it)
   For python projects, we favor [configuring](https://docs.astral.sh/ruff/configuration/) ruff using `pyproject.toml` file.
 
+## Sample notebooks
+
+### Public
+
+- https://github.com/broadinstitute/cell-health 
+- https://github.com/broadinstitute/NeuroPainting
+- https://github.com/broadinstitute/2021_09_01_VarChAMP 
+- https://github.com/broadinstitute/2024_09_09_Axiom_OASIS
+- https://github.com/broadinstitute/2025_laval_submitted (does not use issues, yet)
+- https://github.com/jump-cellpainting/pilot-cpjump1-analysis/
+- https://github.com/jump-cellpainting/morphmap
+
+### Private
+
+- https://github.com/jump-cellpainting/genemod 
+- https://github.com/jump-cellpainting/2023_Arevalo_BatchCorrection_internal/issues?q=is%3Aissue+is%3Aclosed+label%3AExperiments
+
 ## Addressing Pitfalls
 
 _This section is for known issues we're working to improve._
