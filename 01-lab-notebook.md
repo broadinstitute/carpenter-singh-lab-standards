@@ -95,9 +95,9 @@ For large/dynamic datasets:
 
 ### Public
 
-- https://github.com/broadinstitute/cell-health 
+- https://github.com/broadinstitute/cell-health
 - https://github.com/broadinstitute/NeuroPainting
-- https://github.com/broadinstitute/2021_09_01_VarChAMP 
+- https://github.com/broadinstitute/2021_09_01_VarChAMP
 - https://github.com/broadinstitute/2024_09_09_Axiom_OASIS
 - https://github.com/broadinstitute/2025_laval_submitted (does not use issues, yet)
 - https://github.com/jump-cellpainting/pilot-cpjump1-analysis/
@@ -105,7 +105,7 @@ For large/dynamic datasets:
 
 ### Private
 
-- https://github.com/jump-cellpainting/genemod 
+- https://github.com/jump-cellpainting/genemod
 - https://github.com/jump-cellpainting/2023_Arevalo_BatchCorrection_internal/issues?q=is%3Aissue+is%3Aclosed+label%3AExperiments
 
 ## Addressing Pitfalls
