@@ -10,7 +10,9 @@
 ## Why This RFC Was Withdrawn
 
 After prototyping against `jump_production` and reviewing the design against
-the current `workflows.md`, we concluded that the complexity is not justified
+the then-current `workflows.md` (the pipeline SOP since superseded by
+the [catalog-skills](https://github.com/carpenter-singh-lab/catalog-skills)
+vignette-catalog method), we concluded that the complexity is not justified
 by the problems it solves — at least not yet. The core issue: **not everything
 needs versioning, and S3's simplicity is partly the point.**
 
@@ -90,7 +92,7 @@ individually rather than by replacing the entire data layer.
 - Web-browsable data (parquet viewer, image preview) is a real quality-of-life
   improvement that S3 does not offer
 
----
+______________________________________________________________________
 
 ## Summary
 
@@ -141,7 +143,7 @@ requests — no infrastructure to run.
 - `src` layout and Python packages
 - Pre-commit hooks
 
----
+______________________________________________________________________
 
 ## Detailed Design
 
@@ -503,7 +505,7 @@ cache-clear:
     {{HF}} cache prune
 ```
 
----
+______________________________________________________________________
 
 ## Daily Workflow
 
@@ -588,7 +590,7 @@ just log-main
 just get-results-at abc123def456
 ```
 
----
+______________________________________________________________________
 
 ## Cost
 
@@ -609,7 +611,7 @@ kind of thing they support. Worth asking.
 - Max 10k files per folder
 - Max 100k files per repo (split across multiple repos if needed)
 
----
+______________________________________________________________________
 
 ## Trade-offs
 
@@ -633,7 +635,7 @@ The daily workflow (`just get-results` / `just put-results`) absorbs most of
 this complexity. The risk is in the edge cases — stale local files, forgotten
 `branch-create`, cache bloat — not in the happy path.
 
----
+______________________________________________________________________
 
 ## FAQ
 
@@ -732,7 +734,7 @@ export HF_TOKEN=hf_xxxxxxxxxxxxxxxxxxxx
 Generate a token at <https://huggingface.co/settings/tokens> (read access is
 sufficient for downloading; write access for uploads).
 
----
+______________________________________________________________________
 
 ## Rollout Plan
 
@@ -744,7 +746,7 @@ sufficient for downloading; write access for uploads).
 Keep the S3 bucket as a backup during the transition. Don't burn bridges until
 the team is comfortable.
 
----
+______________________________________________________________________
 
 ## Open Questions (at time of withdrawal)
 

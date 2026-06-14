@@ -32,11 +32,11 @@
 
 - Use cases: Projects requiring interactivity, large-scale cloud data access, or specific GPU needs
 - Getting started:
-    - Request an account through [CloudLab](https://cloud.nih.gov/resources/cloudlab/) for $500 in free credits with a 90-day limit, which will allow you to experiment freely
-    - After initial experimentation, ask Shantanu to set up your project account
+  - Request an account through [CloudLab](https://cloud.nih.gov/resources/cloudlab/) for $500 in free credits with a 90-day limit, which will allow you to experiment freely
+  - After initial experimentation, ask Shantanu to set up your project account
 - Required reading:
-    - Beth's [talk](https://drive.google.com/drive/u/0/folders/1EGnz4o4kBnHtMDjoYccuIyp-FVD-xer6) 🔒 and [slides](https://docs.google.com/presentation/d/1znPS90s9Yw22FrcsRn_Sd2tC_kaXELF48oEC7CoGXw8/edit?usp=sharing) 🔒 on Imaging Platform AWS Use. This is mostly relevant to Cimini Lab's usage of AWS but the concepts are useful to know.
-    - [AWS Usage Policy](https://new.ipwiki.app/aws_amazon_web_services) 🔒
+  - Beth's [talk](https://drive.google.com/drive/u/0/folders/1EGnz4o4kBnHtMDjoYccuIyp-FVD-xer6) 🔒 and [slides](https://docs.google.com/presentation/d/1znPS90s9Yw22FrcsRn_Sd2tC_kaXELF48oEC7CoGXw8/edit?usp=sharing) 🔒 on Imaging Platform AWS Use. This is mostly relevant to Cimini Lab's usage of AWS but the concepts are useful to know.
+  - [AWS Usage Policy](https://new.ipwiki.app/aws_amazon_web_services) 🔒
 - We recommend interacting via [Skypilot](https://docs.skypilot.co/en/latest/docs/index.html); see this [Slack thread](https://broadinstitute.slack.com/archives/C3QFDHXC4/p1714062848412759) 🔒
 
 ## Development Environment Setup
@@ -44,8 +44,8 @@
 ### Package Management
 
 - Install applications using [brew](https://brew.sh/)
-- Use [pixi](https://pixi.sh/) for project environment management (conda + pip dependencies, GPU support) — see [workflows](workflows.md#prerequisites) for details
-- Use [uv](https://github.com/astral-sh/uv) for standalone Python tooling outside of project environments
+- Use [uv](https://github.com/astral-sh/uv) for catalog work and standalone Python tooling - the default for data analysis (see [catalog-skills](https://github.com/carpenter-singh-lab/catalog-skills))
+- Use [pixi](https://pixi.sh/) for production pipelines with conda/GPU dependencies (RAPIDS, CuPy) - see the catalog-skills README, "Graduating to a production pipeline"
 
 ## Project Setup & Initialization
 
