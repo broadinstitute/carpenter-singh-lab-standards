@@ -44,8 +44,8 @@
 ### Package Management
 
 - Install applications using [brew](https://brew.sh/)
-- Use [pixi](https://pixi.sh/) for project environment management (conda + pip dependencies, GPU support) — see [workflows](workflows.md#prerequisites) for details
-- Use [uv](https://github.com/astral-sh/uv) for standalone Python tooling outside of project environments
+- Use [uv](https://github.com/astral-sh/uv) for catalog work and standalone Python tooling - the default for data analysis (see [vignette-catalog-skills](https://github.com/carpenter-singh-lab/vignette-catalog-skills))
+- Use [pixi](https://pixi.sh/) for production pipelines with conda/GPU dependencies (RAPIDS, CuPy) - see the vignette-catalog-skills README, "When to use a catalog vs a production pipeline"
 
 ## Project Setup & Initialization
 

@@ -27,7 +27,7 @@ When asked to update documentation:
 When adding new documentation:
 
 - Follow the existing markdown structure and heading hierarchy
-- Place new content in the appropriate file (workflows.md for process-related content)
+- Place new content in the appropriate file; the data-analysis method lives in the [vignette-catalog-skills](https://github.com/carpenter-singh-lab/vignette-catalog-skills) repo, not here
 - Use real-world examples from the referenced repositories when possible
 
 ### 4. Quality Checks
@@ -44,11 +44,9 @@ Before finalizing any changes:
 ```text
 carpenter-singh-lab-standards/
 ├── README.md          # Main entry point, links to other docs
-├── workflows.md       # Comprehensive CCDS workflow guide
+├── infrastructure.md  # Computing resources and dev environment
 └── CLAUDE.md         # This file
 ```
-
-CCDS = Cookiecutter Data Science
 
 ## When Making Changes
 
