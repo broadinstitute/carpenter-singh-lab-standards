@@ -17,5 +17,5 @@ It complements other resources:
 
 ## Documentation
 
-- **[Vignette Catalogs](https://github.com/carpenter-singh-lab/catalog-skills)** - How we do data analysis: curated marimo notebooks an agent composes from, packaged as installable agent skills. The successor to the old Cookiecutter Data Science + Snakemake workflow.
+- **[Vignette Catalogs](https://github.com/carpenter-singh-lab/vignette-catalog-skills)** - How we do data analysis: curated marimo notebooks an agent composes from, packaged as installable agent skills. The successor to the old Cookiecutter Data Science + Snakemake workflow.
 - **[Infrastructure](infrastructure.md)** - Computing resources, development environment, and internal tools

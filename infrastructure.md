@@ -44,8 +44,8 @@
 ### Package Management
 
 - Install applications using [brew](https://brew.sh/)
-- Use [uv](https://github.com/astral-sh/uv) for catalog work and standalone Python tooling - the default for data analysis (see [catalog-skills](https://github.com/carpenter-singh-lab/catalog-skills))
-- Use [pixi](https://pixi.sh/) for production pipelines with conda/GPU dependencies (RAPIDS, CuPy) - see the catalog-skills README, "Graduating to a production pipeline"
+- Use [uv](https://github.com/astral-sh/uv) for catalog work and standalone Python tooling - the default for data analysis (see [vignette-catalog-skills](https://github.com/carpenter-singh-lab/vignette-catalog-skills))
+- Use [pixi](https://pixi.sh/) for production pipelines with conda/GPU dependencies (RAPIDS, CuPy) - see the vignette-catalog-skills README, "When to use a catalog vs a production pipeline"
 
 ## Project Setup & Initialization
 

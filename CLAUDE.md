@@ -27,7 +27,7 @@ When asked to update documentation:
 When adding new documentation:
 
 - Follow the existing markdown structure and heading hierarchy
-- Place new content in the appropriate file; the data-analysis method lives in the [catalog-skills](https://github.com/carpenter-singh-lab/catalog-skills) repo, not here
+- Place new content in the appropriate file; the data-analysis method lives in the [vignette-catalog-skills](https://github.com/carpenter-singh-lab/vignette-catalog-skills) repo, not here
 - Use real-world examples from the referenced repositories when possible
 
 ### 4. Quality Checks

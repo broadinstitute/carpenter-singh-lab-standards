@@ -11,7 +11,7 @@
 
 After prototyping against `jump_production` and reviewing the design against
 the then-current `workflows.md` (the pipeline SOP since superseded by
-the [catalog-skills](https://github.com/carpenter-singh-lab/catalog-skills)
+the [vignette-catalog-skills](https://github.com/carpenter-singh-lab/vignette-catalog-skills)
 vignette-catalog method), we concluded that the complexity is not justified
 by the problems it solves — at least not yet. The core issue: **not everything
 needs versioning, and S3's simplicity is partly the point.**
